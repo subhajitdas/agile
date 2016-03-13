@@ -1,0 +1,26 @@
+{
+  "name": "agile",
+  "version": "1.0.0",
+  "description": "Agile project tracking tool.",
+  "main": "src/app.js",
+  "scripts": {
+    "init": "npm install",
+    "start": "node src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agile"
+  ],
+  "author": "Subhajit Das<subhajitdas86@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.6.5",
+    "babel-plugin-transform-es2015-spread": "^6.6.5",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "should": "^8.2.2"
+  }
+}
